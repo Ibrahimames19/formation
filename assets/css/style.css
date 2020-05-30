@@ -1,0 +1,28 @@
+p {
+	color: #c1c2c3;
+}
+
+h1, h2{
+	color: #00ffdc80;
+}
+
+#fraise {
+	color: pink;
+}
+
+.vert{
+	color: green;
+}
+
+.text-bleu{
+	color: blue;
+}
+
+p em{
+	font-size: 16px !important;
+}
+
+body{
+	color: orange;
+	background-color: #777777
+}
