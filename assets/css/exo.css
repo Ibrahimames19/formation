@@ -1,0 +1,77 @@
+/*structurer le body*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	background-image: src("");
+	background-repeat: no-repeat;
+	font-size: 14px;
+
+}
+h2{
+	border-top: dotted;
+	border-bottom: double;
+	text-align: center;
+	padding-top: 12px;
+	margin: 10px 0px 10px 0px;
+}
+
+/*structurer la barra de navigation*/
+header{
+	height: 60px;
+	color: rgba(0,0,9,0.7);
+	background-color:rgba(121,133,199,0.45)
+}
+
+.logo{
+    font-size: 15px;
+    padding:16px 30px;
+    float: left;
+}
+ul{
+	float: right;
+}
+
+ul li, a:hover{
+	list-style-type: none;
+	text-decoration: none;
+	border-color: lightgrey;
+	
+}
+
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/*le carousel et ses propriete*/
+#carouselExampleSlidesOnly {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/*structurer les article*/
+.article{
+	margin-top: 10px;
+	padding: 3px;
+	border: 1px solid transparent;
+}
+.par{
+	text-align: justify;
+}
+/*structurer le footer*/
+.footer{
+	height: 70px;
+}
